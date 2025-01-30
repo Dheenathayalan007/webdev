@@ -1,0 +1,60 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px;
+    background-image: url(./IMG/GTAX3.JPG);
+    height: 500px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.passvalid{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align:center;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(252, 239, 222);
+    color: black;
+    border:1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(222, 189, 147);
+}
+
+@keyframes movefont{
+    0%{
+        right:50px;
+       top: 50px;
+       
+    }
+
+     100%{
+        right:500px;
+        top:500px;
+    }
+} 
+
+.a2{
+    position: absolute;
+    right:500px;
+    
+    
+    animation: movefont 3s infinite alternate;
+}

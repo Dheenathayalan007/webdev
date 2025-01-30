@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="email">
+    <button onclick="validateEmail()">Click</button>
+
+    <input type="text" name="" id="phone">
+    <button onclick="validationphone()">Click to validate</button>
+
+    <script>
+        const emailInput = document.querySelector('#email');
+      
+        function validateEmail(){
+            const email = emailInput.value;
+            const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            if (re.test(email)){
+
+                alert("your email is not valid");
+
+            }else {
+                alert("your email is valid");
+            }
+        }
+        function validationphone(){
+            const phone = document.querySelector('#phone');
+            console.log(phone)
+            const email = phone.value;
+            
+            const re = /^[2-9]\d{3}[2-9]\d{3}\d{4}$/;
+            if (re.test(email)){
+
+                alert("your phone number is not valid");
+
+            }else {
+                alert("your phone number is valid");
+            }
+        }
+    </script>
+</body>
+</html>

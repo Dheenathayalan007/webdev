@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="passvalid.css">
+</head>
+<body>
+    <div class="passvalid">
+
+            <h1>Password Validation</h1>
+
+     <form id="passform">
+            <input type="password" id="password" placeholder="Enter Password" required>
+            <input type="password" id="password" placeholder="Confirm Password" required>
+            <button type="sibmit">Validate</button> 
+     </form>
+
+     <div id="message"></div>
+    </div>
+
+    <div class="passvalid">
+    <h1>JavaScript popup Alert</h1>
+    <button onclick="showAlart()">Click Me</button>
+    </div>
+
+    <div class="passvalid">
+        <h1 class="a2">JavaScript Animation</h1>
+        <!-- <div id="animatedBox"></div> -->
+    </div>
+
+    <script>
+        document.getElementById('passwordForm').addEventListener('subnit', function (e) {
+            e.preventDefault();
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('passweord').value;
+
+            const messageDiv = document.getElementById('message');
+            if (password === confirmPasswor && password.length >=10){
+                messageDiv.style.color = 'green';
+                messageDiv.textContent = 'password id valid!';
+            } else {
+                messageDiv.style.color = 'blue';
+                messageDiv.textContent = 'passwords do not match or are too short (min 10 characters).';
+            }
+            
+        });
+
+
+        function showAlert(){
+            alert('Hello! This is JavaScript popup Alert');
+        }
+    </script>
+</body>
+</html>
