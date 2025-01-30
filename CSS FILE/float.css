@@ -1,0 +1,29 @@
+
+
+img{
+    width: 25vw;
+    height: 25vw;
+    padding: 2rem;
+    float:right; 
+    display:flow-root; 
+}
+
+h1{
+    height: 300px;
+    border:2px solid black;
+    overflow:;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000; 
+    
+}
+a:hover{
+    color:red ;
+}
+a:focus{
+    background-color: rgb(97, 67, 30);
+    
+}

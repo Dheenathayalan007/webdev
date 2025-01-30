@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    .container{
+        flex-direction: column;
+display:flex;
+
+gap:100px
+
+    }
+    .button{
+        height: 100px;
+        width:100px;
+        background-color:rgb(144, 144, 192);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+
+     
+   }
+   .a{
+    border-radius:100px;
+   }
+   .a:hover{
+    border-radius:0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 5px rgb(144, 144, 192) ;
+    transition:1s;  
+}
+   .b{
+    height: 100px;
+    width:300px;
+    border: 1px solid black;
+   
+   }
+
+   .b:hover{
+    border-bottom: 2px;
+    border-color: brown;
+    border-style:dotted ;
+    border-radius:0px;
+    transform:scale(1000px);
+    /* border: 1px dotted rgb(255,255,245) ;
+    background-color: rgb(255, 255, 255); */
+    /* box-shadow: 2px 4px 5px rgb(144, 144, 192) ;*/
+   } 
+
+</style>
+
+
+<body>
+<div class="container">
+
+<div class="button a">submit</div>
+<div class="button b">apply</div>
+<div class="button c">window</div>
+<div class="button d">home</div>
+
+
+</div>    
+</body>
+</html>

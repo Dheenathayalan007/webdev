@@ -1,0 +1,41 @@
+<section class="full-background-color container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <h2 class="mt-2 text-primary">Hear from Our Students</h2>
+                <p class="mt-3 text-success text-size">Livewire students talk about their enjoyable learning<br>
+                    experiences that included practical training,best practises,<br>
+                    job prospects, and exposure to reputable businesses and<br>
+                    organisations.
+                </p>
+                <a class="borderforlink">See More Testimonial<span><i class="fa-sharp-duotone fa-solid fa-arrow-right"></i></span></a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6" id="topspace">
+                <iframe class="youtubevideo" width="480" height="260" src="https://www.youtube.com/embed/jjfK35xbfL0?si=nX0HggDGG-ie3ArC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-primary">Meta Words : Webinar Series</h3>
+                <p class="text-success text-size">Insights on Semi- Conductor Industry - VLSI</p>
+                <p class="text-success text-size">This webinar talks about how the global semiconductor industry is projected to become a trillion-dollar industry by 2030.</p>
+                <p class="text-size-one">
+                    Presenter:<br>
+                    Mr.karthikeyan<br>
+                    Teacher of Livewires-Mayiladuthurai.
+                </p>
+                <div class="row mt-4">
+                    <div class="col">
+                        <a class="borderforlink" type="">Past Workshops<span><i class="fa-sharp-duotone fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                    <div class="col">
+                        <a class="borderforlink" type="">See all Workshops<span><i class="fa-sharp-duotone fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img style="width: 30em; height: 18em;" src="images/6371466_25221 (1).jpg" title="" alt="">
+            </div>
+        </div>
+    </section>

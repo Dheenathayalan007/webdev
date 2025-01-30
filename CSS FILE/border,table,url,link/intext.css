@@ -1,0 +1,40 @@
+
+
+
+
+
+body{
+    background-color:rgb(111, 173, 254);
+
+}
+
+li{
+    list-style-image:url("./img/coffee.jpg");
+    list-style-type:none;
+    mix-blend-mode:darken;
+}
+
+table{
+
+    border-collapse:collapse;
+    width:100%;
+}
+
+td,th{
+
+    border: 2px solid black;
+    text-align:center;
+    padding:10px;
+    font-family:FF;
+}
+
+@font-face
+{
+font-family:FF;
+src:url("./Voltaire-Frangela.ttf")}
+
+td:hover{
+    background-color:dimgray;
+    font-family:fantasy;
+    font-size: larger;
+

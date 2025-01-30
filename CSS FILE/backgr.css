@@ -1,0 +1,29 @@
+body{
+
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+
+}
+
+.backgr-img{
+
+           background-image:url('./img/backgr2.jpg');
+           background-repeat:no-repeat;
+           background-size:cover;
+           background-attachement:fixed;`
+           padding:40px;
+           text-align:center;
+           morgin-bottom:20px;
+           color:black;
+}
+
+.nothing {
+
+         height:100px;
+          width:80svh;
+          border:5px solid black;
+          background-color:rgb(77, 148, 255);
+}
+
